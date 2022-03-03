@@ -30,6 +30,11 @@ body{
     min-width: 1440px;
 }
 
+ul{
+    text-decoration: none;
+    list-style: none;
+}
+
 
 /*#endregion*/
 
@@ -74,7 +79,25 @@ main{
 footer{
     height: 81px;
     background-color:var(--bg_secondary);
-    
+    justify-content: center;
+    align-items: center;
+}
+
+nav{
+    justify-content:space-between;
+}
+
+.menu_left{
+    color:var(--txt_primary-color)
+}
+
+.action{
+    width: 10%;
+    justify-content:center;
+    align-items: center;
+}
+.red{
+    background-color: red;
 }
 
 
