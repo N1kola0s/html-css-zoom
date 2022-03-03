@@ -35,11 +35,16 @@ ul{
     text-decoration: none;
 }
 
+i{
+    padding: 8px 0;
+    color:var(--icon_primary-color);
+}
+
 
 
 /*#endregion*/
 
-/* #region Utility */
+
 
 /* #region grid */
 .row{
@@ -56,11 +61,11 @@ ul{
 
  /*#endregion */
 
+ /* #region Utility */
+
 .flex {
     display:flex;
 } 
-
-
 
 
 /* #endregion */
@@ -104,20 +109,19 @@ nav{
     background-color: red;
 }
 
-.action>a{
-    flex-direction: column;
-    color: var(--icon_primary-color);
-    
-}
-
 i{
     padding: 8px 0;
+    color:var(--icon_primary-color);
 }
 
 .fa-angle-up {
     font-size: 10px;
     line-height: 50px;
 
+}
+
+#share {
+    color:var(--icon_secondary-color);
 }
 
 /* #endregion */
