@@ -32,3 +32,50 @@ body{
 
 
 /*#endregion*/
+
+/* #region Utility */
+
+/* #region grid */
+.row{
+    width: 100%;
+}
+
+.col_25{
+    width: 25%;
+}
+
+.col_50{
+    width: 50%;
+}
+
+ /*#endregion */
+
+.flex {
+    display:flex;
+} 
+
+
+
+
+/* #endregion */
+
+
+/* #region main */
+
+main{
+    height: calc(100vh - 81px);
+    background-color: red;;
+}
+
+
+/* #endregion */
+
+/* #region Footer */
+footer{
+    height: 81px;
+    background:blue;
+    
+}
+
+
+/* #endregion */
