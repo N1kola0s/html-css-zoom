@@ -110,4 +110,14 @@ nav{
     
 }
 
+i{
+    padding: 8px 0;
+}
+
+.fa-angle-up {
+    font-size: 10px;
+    line-height: 50px;
+
+}
+
 /* #endregion */
