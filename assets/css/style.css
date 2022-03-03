@@ -42,6 +42,7 @@ i{
 
 
 
+
 /*#endregion*/
 
 
@@ -57,6 +58,10 @@ i{
 
 .col_50{
     width: 50%;
+}
+
+.col_14{
+    width: 14%;
 }
 
  /*#endregion */
@@ -95,6 +100,31 @@ main{
     font-size: 18px;
 }
 
+.container{
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    height: 100px;
+}
+
+.card{
+    height: 144px;
+    background-image: url(https://picsum.photos/id/10/244/144) ;
+    background-size: cover;
+    justify-content: flex-start;
+    align-items: flex-end;
+
+}
+
+.card_text{
+    background-color: #4a4a4a63;
+    color:var(--txt_primary-color);
+    padding:2px 8px;
+}
+
+.card_text i{
+    font-size: 16px;
+}
 
 /* #endregion */
 
