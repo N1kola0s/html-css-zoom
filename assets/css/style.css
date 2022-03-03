@@ -1,0 +1,34 @@
+/* #region Variables */
+
+:root {
+    --bg_primary: #000000;
+    --bg_secondary:#222222;
+    --bg_tertiary:#4A4A4A;
+
+    --txt_primary-color:#ffffff;
+    --txt_secondary-color:#ED1D21;
+
+    --icon_primary-color:#ffffff;
+    --icon_secondary-color:#4BC800;
+
+}
+
+
+/* #endregion */
+
+
+/*#region Common rules*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    min-width: 1440px;
+}
+
+
+/*#endregion*/
