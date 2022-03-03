@@ -92,13 +92,19 @@ nav{
 }
 
 .action{
-    width: 10%;
-    justify-content:center;
+    width: 20%;
+    justify-content: center;
     align-items: center;
 }
 .red{
     background-color: red;
 }
 
+.action>a{
+    flex-direction: column;
+    color: var(--icon_primary-color);
+    justify-content: center;
+    align-items: center;
+}
 
 /* #endregion */
