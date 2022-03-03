@@ -64,7 +64,7 @@ body{
 
 main{
     height: calc(100vh - 81px);
-    background-color: red;;
+    background-color: var(--bg_primary);
 }
 
 
@@ -73,7 +73,7 @@ main{
 /* #region Footer */
 footer{
     height: 81px;
-    background:blue;
+    background-color:var(--bg_secondary);
     
 }
 
