@@ -31,9 +31,10 @@ body{
 }
 
 ul{
-    text-decoration: none;
     list-style: none;
+    text-decoration: none;
 }
+
 
 
 /*#endregion*/
@@ -94,6 +95,10 @@ nav{
 .action{
     padding: 10px;
     text-align:center;
+    flex-direction: column;
+    color: var(--icon_primary-color);
+    justify-content: center;
+    align-items: center;
 }
 .red{
     background-color: red;
@@ -102,8 +107,7 @@ nav{
 .action>a{
     flex-direction: column;
     color: var(--icon_primary-color);
-    justify-content: center;
-    align-items: center;
+    
 }
 
 /* #endregion */
