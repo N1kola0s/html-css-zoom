@@ -92,9 +92,8 @@ nav{
 }
 
 .action{
-    justify-content: center;
-    align-items: center;
     padding: 10px;
+    text-align:center;
 }
 .red{
     background-color: red;
