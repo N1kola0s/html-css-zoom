@@ -78,6 +78,23 @@ main{
     background-color: var(--bg_primary);
 }
 
+.top_options {
+    color:var(--txt_primary-color);
+    justify-content:flex-end;
+}
+
+.top_options span {
+    background-color: var(--bg_tertiary);
+    padding: 5px 15px;
+    margin:5px 10px;
+    border-radius: 5px;
+} 
+
+.top_options i{
+    vertical-align: middle;
+    font-size: 18px;
+}
+
 
 /* #endregion */
 
@@ -110,6 +127,7 @@ nav{
 }
 
 i{
+    font-size:20px;
     padding: 8px 0;
     color:var(--icon_primary-color);
 }
@@ -122,6 +140,21 @@ i{
 
 #share {
     color:var(--icon_secondary-color);
+}
+
+.menu_right{
+    justify-content: flex-end;
+
+}
+
+.btn{
+    height: 81px;
+    background-color: var(--bg_tertiary);
+    color:var(--txt_secondary-color);
+    width: 115px;
+    text-align: center;
+    padding: 30px 0;
+    
 }
 
 /* #endregion */
